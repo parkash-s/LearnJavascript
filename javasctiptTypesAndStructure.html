@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Dynamic and weak type
+
+        // Dynamic Type
+        /* Variables are not directly associated with 
+        any particular value type.*/
+        let foo = 42;     // foo is a number.
+            foo = 'name'; // now foo is a string.
+            foo = true;   // now foo is a boolean.
+
+
+        // Weak Type
+        /* When an operation involved mismatch types, 
+           Instead of throwing errors. Javascript allows implicit 
+           type conversion. */ 
+        const bar = 42;            // bar is a number;
+        const result = bar + "1";  /*javascript will coerce bar with string. 
+                                   Result will be 421 */
+                                   
+        // Types in Javascript
+        null
+        undefined
+        Boolean
+        Number
+        String
+        BigInt
+        Symbol 
+    </script>
+</body>
+</html>

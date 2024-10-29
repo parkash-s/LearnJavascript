@@ -1,0 +1,1 @@
+// Default or implicit behaviour of Javascript.
